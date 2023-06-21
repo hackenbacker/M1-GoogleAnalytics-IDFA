@@ -28,7 +28,7 @@ pod install
 * Xcode 15.0 Beta
 
 ## CocoaPods
-* 1.11.2
+* 1.11.2, 1.12.1
 
 ## Mac
 * M1 Ultra
