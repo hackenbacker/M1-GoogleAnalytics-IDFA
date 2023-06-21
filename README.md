@@ -20,6 +20,9 @@ pod install
 ```
 
 # Development Environment
+## OS
+* iOS 13.0 - 17.0 beta
+
 ## Xcode
 * Xcode 14.3.1
 * Xcode 15.0 Beta
