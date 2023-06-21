@@ -9,7 +9,7 @@ for architecture arm64
 🔴 Linker command failed with exit code 1 (use -v to see invocation)
 ```
 
- I solved the problem by changing the version of `GoogleIDFASupport` to `3.12.0`.
+ I solved the problem by changing the version of `GoogleIDFASupport` to `3.12.0`. (see `Podfile`)
 
  This repository is the minimum configuration for GoogleAnalytics and GoogleIDFASupport to be built on Apple Silicon machines.
 
