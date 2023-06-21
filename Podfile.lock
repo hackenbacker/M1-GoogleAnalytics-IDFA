@@ -1,0 +1,20 @@
+PODS:
+  - GoogleAnalytics (3.21.0)
+  - GoogleIDFASupport (3.12.0)
+
+DEPENDENCIES:
+  - GoogleAnalytics
+  - GoogleIDFASupport (= 3.12.0)
+
+SPEC REPOS:
+  trunk:
+    - GoogleAnalytics
+    - GoogleIDFASupport
+
+SPEC CHECKSUMS:
+  GoogleAnalytics: abbea91ce20faea66c5b2305aa040d3f9992f66a
+  GoogleIDFASupport: 0dd25ffdd152fd8e3deefd72978b42ef818ef0fa
+
+PODFILE CHECKSUM: 59f5914c9aef38547bc886c84c692d19d8b316bf
+
+COCOAPODS: 1.11.3

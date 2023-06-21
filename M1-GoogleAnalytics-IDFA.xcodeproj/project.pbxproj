@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C574C03F2A43890400239E77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C574C03E2A43890400239E77 /* AppDelegate.swift */; };
+		C574C0412A43890400239E77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C574C0402A43890400239E77 /* SceneDelegate.swift */; };
+		C574C0432A43890400239E77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C574C0422A43890400239E77 /* ViewController.swift */; };
+		C574C0462A43890400239E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C574C0442A43890400239E77 /* Main.storyboard */; };
+		C574C0482A43890500239E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C574C0472A43890500239E77 /* Assets.xcassets */; };
+		C574C04B2A43890500239E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C574C0492A43890500239E77 /* LaunchScreen.storyboard */; };
+		D5E114A26D22D64461A2B7DD /* Pods_M1_GoogleAnalytics_IDFA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C431B55C16C643E8E0844A /* Pods_M1_GoogleAnalytics_IDFA.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53F05346A97D29D094E6BBD8 /* Pods-M1-GoogleAnalytics-IDFA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M1-GoogleAnalytics-IDFA.release.xcconfig"; path = "Target Support Files/Pods-M1-GoogleAnalytics-IDFA/Pods-M1-GoogleAnalytics-IDFA.release.xcconfig"; sourceTree = "<group>"; };
+		85C431B55C16C643E8E0844A /* Pods_M1_GoogleAnalytics_IDFA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M1_GoogleAnalytics_IDFA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC4C070DBD738AC2434520C /* Pods-M1-GoogleAnalytics-IDFA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M1-GoogleAnalytics-IDFA.debug.xcconfig"; path = "Target Support Files/Pods-M1-GoogleAnalytics-IDFA/Pods-M1-GoogleAnalytics-IDFA.debug.xcconfig"; sourceTree = "<group>"; };
+		C574C03B2A43890400239E77 /* M1-GoogleAnalytics-IDFA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M1-GoogleAnalytics-IDFA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C574C03E2A43890400239E77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C574C0402A43890400239E77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C574C0422A43890400239E77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C574C0452A43890400239E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C574C0472A43890500239E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C574C04A2A43890500239E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C574C04C2A43890500239E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C574C0382A43890400239E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E114A26D22D64461A2B7DD /* Pods_M1_GoogleAnalytics_IDFA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		140AA87BF8EB16342DB2ECE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCC4C070DBD738AC2434520C /* Pods-M1-GoogleAnalytics-IDFA.debug.xcconfig */,
+				53F05346A97D29D094E6BBD8 /* Pods-M1-GoogleAnalytics-IDFA.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A177ADC995913E7CA9DC2E9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85C431B55C16C643E8E0844A /* Pods_M1_GoogleAnalytics_IDFA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C574C0322A43890400239E77 = {
+			isa = PBXGroup;
+			children = (
+				C574C03D2A43890400239E77 /* M1-GoogleAnalytics-IDFA */,
+				C574C03C2A43890400239E77 /* Products */,
+				140AA87BF8EB16342DB2ECE0 /* Pods */,
+				A177ADC995913E7CA9DC2E9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C574C03C2A43890400239E77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C574C03B2A43890400239E77 /* M1-GoogleAnalytics-IDFA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C574C03D2A43890400239E77 /* M1-GoogleAnalytics-IDFA */ = {
+			isa = PBXGroup;
+			children = (
+				C574C03E2A43890400239E77 /* AppDelegate.swift */,
+				C574C0402A43890400239E77 /* SceneDelegate.swift */,
+				C574C0422A43890400239E77 /* ViewController.swift */,
+				C574C0442A43890400239E77 /* Main.storyboard */,
+				C574C0472A43890500239E77 /* Assets.xcassets */,
+				C574C0492A43890500239E77 /* LaunchScreen.storyboard */,
+				C574C04C2A43890500239E77 /* Info.plist */,
+			);
+			path = "M1-GoogleAnalytics-IDFA";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C574C03A2A43890400239E77 /* M1-GoogleAnalytics-IDFA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C574C04F2A43890500239E77 /* Build configuration list for PBXNativeTarget "M1-GoogleAnalytics-IDFA" */;
+			buildPhases = (
+				AEF962D4AA665D4ECE1F7B50 /* [CP] Check Pods Manifest.lock */,
+				C574C0372A43890400239E77 /* Sources */,
+				C574C0382A43890400239E77 /* Frameworks */,
+				C574C0392A43890400239E77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "M1-GoogleAnalytics-IDFA";
+			productName = "M1-GoogleAnalytics-IDFA";
+			productReference = C574C03B2A43890400239E77 /* M1-GoogleAnalytics-IDFA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C574C0332A43890400239E77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C574C03A2A43890400239E77 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C574C0362A43890400239E77 /* Build configuration list for PBXProject "M1-GoogleAnalytics-IDFA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C574C0322A43890400239E77;
+			productRefGroup = C574C03C2A43890400239E77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C574C03A2A43890400239E77 /* M1-GoogleAnalytics-IDFA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C574C0392A43890400239E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C574C04B2A43890500239E77 /* LaunchScreen.storyboard in Resources */,
+				C574C0482A43890500239E77 /* Assets.xcassets in Resources */,
+				C574C0462A43890400239E77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEF962D4AA665D4ECE1F7B50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-M1-GoogleAnalytics-IDFA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C574C0372A43890400239E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C574C0432A43890400239E77 /* ViewController.swift in Sources */,
+				C574C03F2A43890400239E77 /* AppDelegate.swift in Sources */,
+				C574C0412A43890400239E77 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C574C0442A43890400239E77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C574C0452A43890400239E77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C574C0492A43890500239E77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C574C04A2A43890500239E77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C574C04D2A43890500239E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C574C04E2A43890500239E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C574C0502A43890500239E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC4C070DBD738AC2434520C /* Pods-M1-GoogleAnalytics-IDFA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "M1-GoogleAnalytics-IDFA/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.hackenbacker.M1-GoogleAnalytics-IDFA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C574C0512A43890500239E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F05346A97D29D094E6BBD8 /* Pods-M1-GoogleAnalytics-IDFA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "M1-GoogleAnalytics-IDFA/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.hackenbacker.M1-GoogleAnalytics-IDFA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C574C0362A43890400239E77 /* Build configuration list for PBXProject "M1-GoogleAnalytics-IDFA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C574C04D2A43890500239E77 /* Debug */,
+				C574C04E2A43890500239E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C574C04F2A43890500239E77 /* Build configuration list for PBXNativeTarget "M1-GoogleAnalytics-IDFA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C574C0502A43890500239E77 /* Debug */,
+				C574C0512A43890500239E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C574C0332A43890400239E77 /* Project object */;
+}
