@@ -33,4 +33,4 @@ pod install
 ## Mac
 * M1 Ultra
 * M1 Pro
-* Bitrise - M1 medium
+* Bitrise - M1 Medium (Xcode 14.1)
