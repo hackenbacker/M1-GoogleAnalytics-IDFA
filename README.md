@@ -21,11 +21,11 @@ pod install
 
 # Development Environment
 ## OS
-* iOS 13.0 - 17.0 beta
+* iOS 13.0 - 17.0 beta N
 
 ## Xcode
 * Xcode 14.3.1
-* Xcode 15.0 Beta
+* Xcode 15.0 Beta N
 
 ## CocoaPods
 * 1.11.2, 1.12.1
